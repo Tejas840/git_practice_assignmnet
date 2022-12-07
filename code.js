@@ -2,21 +2,21 @@
 
 var num = 13;
 
-var prime = true;
+var factor = 0;
 
-for(var i=2; i<13; i++){
+for(var i=1; i<=num; i++){
   if(num%i == 0){
-    prime = false;
+    factor++;
   }
 }
 
-if(prime){
+if(factor==2){
   console.log("prime no.")
 } else{
   console.log("Not prime no.")
 }
 
-// palidrome or // NOT
+//palidrome or // NOT
 
 var str = "naman";
 
