@@ -6,7 +6,7 @@ var prime = true;
 
 for(var i=2; i<13; i++){
   if(num%i == 0){
-    prime = true;
+    prime = false;
   }
 }
 
@@ -21,9 +21,8 @@ if(prime){
 var str = "naman";
 
 var rev = "";
-
 for(var i=str.length-1; i>=0; i--){
-  rev = rev + str[j];
+  rev = rev + str[i];
 }
 
 if(rev == str){
